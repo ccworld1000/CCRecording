@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "DetailViewController.h"
 #import "CCRecording/CCRecording.h"
+#import <BaiduMobStat.h>
+
 
 @interface AppDelegate () <UISplitViewControllerDelegate>
 
@@ -16,9 +18,18 @@
 
 @implementation AppDelegate
 
+- (void) loadingMobStat {
+    BaiduMobStat* statTracker = [BaiduMobStat defaultStat];
+    statTracker.shortAppVersion  = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
+    statTracker.enableDebugOn = NO;
+    
+    [statTracker startWithAppId:@"ac2a03a703"];
+}
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self loadingMobStat];
     UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
     UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
     navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem;

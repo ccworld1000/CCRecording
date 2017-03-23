@@ -19,6 +19,7 @@
 		18E69B931E7EE3FA00E49BCF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E69B921E7EE3FA00E49BCF /* AVFoundation.framework */; };
 		18E69B951E7EE40600E49BCF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E69B941E7EE40600E49BCF /* CoreMedia.framework */; };
 		18E69B971E7EE41B00E49BCF /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E69B961E7EE41B00E49BCF /* AssetsLibrary.framework */; };
+		C9216ECDEC77BDF6854EF85D /* libPods-CCRecordingDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35BE4EB611483501393B4900 /* libPods-CCRecordingDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,9 @@
 		18E69B921E7EE3FA00E49BCF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		18E69B941E7EE40600E49BCF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		18E69B961E7EE41B00E49BCF /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		35BE4EB611483501393B4900 /* libPods-CCRecordingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCRecordingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A2DB51F72FBFBDCBB2BF83 /* Pods-CCRecordingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCRecordingDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCRecordingDemo/Pods-CCRecordingDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A39B2233DA089EC4D8FBB82B /* Pods-CCRecordingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCRecordingDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCRecordingDemo/Pods-CCRecordingDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,7 @@
 				18E69B951E7EE40600E49BCF /* CoreMedia.framework in Frameworks */,
 				18E69B931E7EE3FA00E49BCF /* AVFoundation.framework in Frameworks */,
 				18E69B911E7EE38400E49BCF /* libCCRecording.a in Frameworks */,
+				C9216ECDEC77BDF6854EF85D /* libPods-CCRecordingDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +69,8 @@
 				18E69B921E7EE3FA00E49BCF /* AVFoundation.framework */,
 				18E69B381E7ED21000E49BCF /* CCRecordingDemo */,
 				18E69B371E7ED21000E49BCF /* Products */,
+				A744736F355104AD01D964F2 /* Pods */,
+				4C2A9D63E1428D0809C62D33 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +118,23 @@
 			path = CCRecording;
 			sourceTree = "<group>";
 		};
+		4C2A9D63E1428D0809C62D33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35BE4EB611483501393B4900 /* libPods-CCRecordingDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A744736F355104AD01D964F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50A2DB51F72FBFBDCBB2BF83 /* Pods-CCRecordingDemo.debug.xcconfig */,
+				A39B2233DA089EC4D8FBB82B /* Pods-CCRecordingDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -129,10 +153,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18E69B501E7ED21000E49BCF /* Build configuration list for PBXNativeTarget "CCRecordingDemo" */;
 			buildPhases = (
+				219D13019DA843007BB59AFC /* [CP] Check Pods Manifest.lock */,
 				18E69B321E7ED21000E49BCF /* Sources */,
 				18E69B331E7ED21000E49BCF /* Frameworks */,
 				18E69B341E7ED21000E49BCF /* Resources */,
 				18E69B561E7ED53900E49BCF /* Headers */,
+				21E3BF3B83BF34D5B0C91570 /* [CP] Embed Pods Frameworks */,
+				B7B1CC205A1FBE3C032A35E5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,6 +214,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		219D13019DA843007BB59AFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		21E3BF3B83BF34D5B0C91570 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCRecordingDemo/Pods-CCRecordingDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7B1CC205A1FBE3C032A35E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCRecordingDemo/Pods-CCRecordingDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18E69B321E7ED21000E49BCF /* Sources */ = {
@@ -306,6 +381,7 @@
 		};
 		18E69B511E7ED21000E49BCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50A2DB51F72FBFBDCBB2BF83 /* Pods-CCRecordingDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
@@ -327,6 +403,7 @@
 		};
 		18E69B521E7ED21000E49BCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A39B2233DA089EC4D8FBB82B /* Pods-CCRecordingDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;

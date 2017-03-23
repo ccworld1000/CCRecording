@@ -1,0 +1,12 @@
+PODS:
+  - BaiduMobStat (4.4.0)
+
+DEPENDENCIES:
+  - BaiduMobStat (~> 4.4.0)
+
+SPEC CHECKSUMS:
+  BaiduMobStat: 268afdc731de49142e3e2ed794f8ed65002139b9
+
+PODFILE CHECKSUM: 55ff2d7f6b12c9daef19fdb2120230d1057a813a
+
+COCOAPODS: 1.2.0
