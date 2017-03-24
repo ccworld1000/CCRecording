@@ -14,11 +14,6 @@
 		18E69B471E7ED21000E49BCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E69B451E7ED21000E49BCF /* Main.storyboard */; };
 		18E69B491E7ED21000E49BCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E69B481E7ED21000E49BCF /* Assets.xcassets */; };
 		18E69B4C1E7ED21000E49BCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E69B4A1E7ED21000E49BCF /* LaunchScreen.storyboard */; };
-		18E69B901E7EE38400E49BCF /* CCRecording.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E69B8E1E7EE38400E49BCF /* CCRecording.h */; };
-		18E69B911E7EE38400E49BCF /* libCCRecording.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E69B8F1E7EE38400E49BCF /* libCCRecording.a */; };
-		18E69B931E7EE3FA00E49BCF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E69B921E7EE3FA00E49BCF /* AVFoundation.framework */; };
-		18E69B951E7EE40600E49BCF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E69B941E7EE40600E49BCF /* CoreMedia.framework */; };
-		18E69B971E7EE41B00E49BCF /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E69B961E7EE41B00E49BCF /* AssetsLibrary.framework */; };
 		C9216ECDEC77BDF6854EF85D /* libPods-CCRecordingDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35BE4EB611483501393B4900 /* libPods-CCRecordingDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -35,11 +30,6 @@
 		18E69B481E7ED21000E49BCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18E69B4B1E7ED21000E49BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18E69B4D1E7ED21000E49BCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18E69B8E1E7EE38400E49BCF /* CCRecording.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRecording.h; sourceTree = "<group>"; };
-		18E69B8F1E7EE38400E49BCF /* libCCRecording.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCCRecording.a; sourceTree = "<group>"; };
-		18E69B921E7EE3FA00E49BCF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		18E69B941E7EE40600E49BCF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		18E69B961E7EE41B00E49BCF /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		35BE4EB611483501393B4900 /* libPods-CCRecordingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCRecordingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A2DB51F72FBFBDCBB2BF83 /* Pods-CCRecordingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCRecordingDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCRecordingDemo/Pods-CCRecordingDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A39B2233DA089EC4D8FBB82B /* Pods-CCRecordingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCRecordingDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCRecordingDemo/Pods-CCRecordingDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -50,10 +40,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E69B971E7EE41B00E49BCF /* AssetsLibrary.framework in Frameworks */,
-				18E69B951E7EE40600E49BCF /* CoreMedia.framework in Frameworks */,
-				18E69B931E7EE3FA00E49BCF /* AVFoundation.framework in Frameworks */,
-				18E69B911E7EE38400E49BCF /* libCCRecording.a in Frameworks */,
 				C9216ECDEC77BDF6854EF85D /* libPods-CCRecordingDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,9 +50,6 @@
 		18E69B2D1E7ED21000E49BCF = {
 			isa = PBXGroup;
 			children = (
-				18E69B961E7EE41B00E49BCF /* AssetsLibrary.framework */,
-				18E69B941E7EE40600E49BCF /* CoreMedia.framework */,
-				18E69B921E7EE3FA00E49BCF /* AVFoundation.framework */,
 				18E69B381E7ED21000E49BCF /* CCRecordingDemo */,
 				18E69B371E7ED21000E49BCF /* Products */,
 				A744736F355104AD01D964F2 /* Pods */,
@@ -85,7 +68,6 @@
 		18E69B381E7ED21000E49BCF /* CCRecordingDemo */ = {
 			isa = PBXGroup;
 			children = (
-				18E69B8D1E7EE38400E49BCF /* CCRecording */,
 				18E69B3C1E7ED21000E49BCF /* AppDelegate.h */,
 				18E69B3D1E7ED21000E49BCF /* AppDelegate.m */,
 				18E69B3F1E7ED21000E49BCF /* MasterViewController.h */,
@@ -107,15 +89,6 @@
 				18E69B3A1E7ED21000E49BCF /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		18E69B8D1E7EE38400E49BCF /* CCRecording */ = {
-			isa = PBXGroup;
-			children = (
-				18E69B8E1E7EE38400E49BCF /* CCRecording.h */,
-				18E69B8F1E7EE38400E49BCF /* libCCRecording.a */,
-			);
-			path = CCRecording;
 			sourceTree = "<group>";
 		};
 		4C2A9D63E1428D0809C62D33 /* Frameworks */ = {
@@ -142,7 +115,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E69B901E7EE38400E49BCF /* CCRecording.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

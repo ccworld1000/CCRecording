@@ -12,18 +12,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F620D86E451ACA605D4910519F0AC2E /* BaiduMobStat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaiduMobStat.h; path = BaiduMobStat/BaiduMobStat.h; sourceTree = "<group>"; };
 		0FB5A627C62C4F34057BDFC9B2EF0522 /* libPods-CCRecordingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CCRecordingDemo.a"; path = "libPods-CCRecordingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		23D6CA5A6E42127544DAA348F19A76A2 /* BaiduMobStat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaiduMobStat.h; path = BaiduMobStat/BaiduMobStat.h; sourceTree = "<group>"; };
 		32754C3BE306FD0566F6C56E78568E0B /* Pods-CCRecordingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCRecordingDemo.release.xcconfig"; sourceTree = "<group>"; };
 		40F10A099C6B335A4AE1B47952D0AE01 /* Pods-CCRecordingDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCRecordingDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4F1400848064A26BA75F8CD1276B14B3 /* libBaiduMobStat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBaiduMobStat.a; path = BaiduMobStat/libBaiduMobStat.a; sourceTree = "<group>"; };
+		453B098FD6256F56EC80ADC2465D556D /* CCRecording.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCRecording.h; path = CCRecording/CCRecording.h; sourceTree = "<group>"; };
 		64769864CD1DC02261A6A3B4793F96FC /* Pods-CCRecordingDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCRecordingDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		81FF3A0FA3B83E5F767861B4F4FF43B5 /* Pods-CCRecordingDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCRecordingDemo-dummy.m"; sourceTree = "<group>"; };
 		9214D0D21C5A58580202641214CDDB67 /* Pods-CCRecordingDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCRecordingDemo-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9697A2E452D900B13025364D1DF11D9B /* Pods-CCRecordingDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCRecordingDemo-resources.sh"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D759ACE0933A85E7583AE46F16AF63E6 /* libCCRecording.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCCRecording.a; path = CCRecording/libCCRecording.a; sourceTree = "<group>"; };
 		E9060F90513BF6D08BCA2D628FA9E257 /* Pods-CCRecordingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCRecordingDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E9228F5ACFB05CFCA8298A1ADE125006 /* libBaiduMobStat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBaiduMobStat.a; path = BaiduMobStat/libBaiduMobStat.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,12 +40,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		11654185C1CACE292B32AD668D95637B /* Frameworks */ = {
+		3328F597674F008C692B35974068242E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4F1400848064A26BA75F8CD1276B14B3 /* libBaiduMobStat.a */,
+				6783EE05B565EF202386389EADF49725 /* BaiduMobStat */,
+				A97553C0C3B72198AFC7F0745979A2FC /* CCRecording */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		3893E65C7CAAE75DAC39D187B5416ED9 /* Targets Support Files */ = {
@@ -54,11 +57,11 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6DCC665D9421C12DB37751BA4E845C59 /* BaiduMobStat */ = {
+		6783EE05B565EF202386389EADF49725 /* BaiduMobStat */ = {
 			isa = PBXGroup;
 			children = (
-				23D6CA5A6E42127544DAA348F19A76A2 /* BaiduMobStat.h */,
-				11654185C1CACE292B32AD668D95637B /* Frameworks */,
+				0F620D86E451ACA605D4910519F0AC2E /* BaiduMobStat.h */,
+				793B4EED2B2B8EFCBC95DFB35BD32DA5 /* Frameworks */,
 			);
 			name = BaiduMobStat;
 			path = BaiduMobStat;
@@ -72,12 +75,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		77186C9D0B4EDA3DCDEE4EB7A98A7CA6 /* Pods */ = {
+		793B4EED2B2B8EFCBC95DFB35BD32DA5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6DCC665D9421C12DB37751BA4E845C59 /* BaiduMobStat */,
+				E9228F5ACFB05CFCA8298A1ADE125006 /* libBaiduMobStat.a */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -85,10 +88,20 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				77186C9D0B4EDA3DCDEE4EB7A98A7CA6 /* Pods */,
+				3328F597674F008C692B35974068242E /* Pods */,
 				F3B3A574BDF5FA02D31D4BA72E15E600 /* Products */,
 				3893E65C7CAAE75DAC39D187B5416ED9 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		A97553C0C3B72198AFC7F0745979A2FC /* CCRecording */ = {
+			isa = PBXGroup;
+			children = (
+				453B098FD6256F56EC80ADC2465D556D /* CCRecording.h */,
+				F014AD62AF74E58747A218D80349749C /* Frameworks */,
+			);
+			name = CCRecording;
+			path = CCRecording;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -112,6 +125,14 @@
 			);
 			name = "Pods-CCRecordingDemo";
 			path = "Target Support Files/Pods-CCRecordingDemo";
+			sourceTree = "<group>";
+		};
+		F014AD62AF74E58747A218D80349749C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D759ACE0933A85E7583AE46F16AF63E6 /* libCCRecording.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F3B3A574BDF5FA02D31D4BA72E15E600 /* Products */ = {
