@@ -1,8 +1,8 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/BaiduMobStat" "${PODS_ROOT}/Headers/Public/CCRecording"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/BaiduMobStat/BaiduMobStat" $(inherited) "${PODS_ROOT}/CCRecording/CCRecording"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/BaiduMobStat" -isystem "${PODS_ROOT}/Headers/Public/CCRecording"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"BaiduMobStat" -l"CCRecording" -l"stdc++" -l"z" -framework "AVFoundation" -framework "AssetsLibrary" -framework "CoreAudio" -framework "CoreFoundation" -framework "CoreGraphics" -framework "CoreImage" -framework "CoreLocation" -framework "CoreMedia" -framework "CoreTelephony" -framework "CoreText" -framework "CoreVideo" -framework "Foundation" -framework "ImageIO" -framework "JavaScriptCore" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/BaiduMobStat" "${PODS_ROOT}/Headers/Public/CCRecording" "${PODS_ROOT}/Headers/Public/CCStat"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/CCStat" $(inherited) "${PODS_ROOT}/BaiduMobStat/BaiduMobStat" $(inherited) "${PODS_ROOT}/CCRecording/CCRecording"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/BaiduMobStat" -isystem "${PODS_ROOT}/Headers/Public/CCRecording" -isystem "${PODS_ROOT}/Headers/Public/CCStat"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"BaiduMobStat" -l"CCRecording" -l"CCStat" -l"stdc++" -l"z" -framework "AVFoundation" -framework "AssetsLibrary" -framework "CoreAudio" -framework "CoreFoundation" -framework "CoreGraphics" -framework "CoreImage" -framework "CoreLocation" -framework "CoreMedia" -framework "CoreTelephony" -framework "CoreText" -framework "CoreVideo" -framework "Foundation" -framework "ImageIO" -framework "JavaScriptCore" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}/Pods

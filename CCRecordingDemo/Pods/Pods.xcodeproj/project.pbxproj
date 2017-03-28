@@ -7,44 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1889BD1A6B646E9E607F9FBE495D4213 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		9087AC85BC7F00FBA6403CF749DD695E /* Pods-CCRecordingDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FF3A0FA3B83E5F767861B4F4FF43B5 /* Pods-CCRecordingDemo-dummy.m */; };
+		10514154AD53AA08DE7BEC80E798B2CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		2B08458A49666AAE5CCAA32F2587E9B5 /* CCStat.m in Sources */ = {isa = PBXBuildFile; fileRef = B1106CE3FF6145C8CF1623F646680624 /* CCStat.m */; };
+		66500E30B5F57E4ADD79DBB5B2969D14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		99BB259EC71393110F5C3EFBB5BB4001 /* Pods-CCRecordingDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FF3A0FA3B83E5F767861B4F4FF43B5 /* Pods-CCRecordingDemo-dummy.m */; };
+		CBA57BF28903E24D31C3CF284782082D /* CCStat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A490606EF19203E293BE0AEA122A7753 /* CCStat-dummy.m */; };
+		CF2EA4810D3133E7B03DA3E1BDB925B8 /* CCStat.h in Headers */ = {isa = PBXBuildFile; fileRef = 6979294F365C01DE7B7899421D508A5B /* CCStat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		99D73B39926D749DAD87F2A8F9F1DC7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F224CE5782133A70F8EAD77F5957E11;
+			remoteInfo = CCStat;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		0F620D86E451ACA605D4910519F0AC2E /* BaiduMobStat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaiduMobStat.h; path = BaiduMobStat/BaiduMobStat.h; sourceTree = "<group>"; };
-		0FB5A627C62C4F34057BDFC9B2EF0522 /* libPods-CCRecordingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CCRecordingDemo.a"; path = "libPods-CCRecordingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		002FAF9C1C9692609DD58F2234ED3086 /* libBaiduMobStat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBaiduMobStat.a; path = BaiduMobStat/libBaiduMobStat.a; sourceTree = "<group>"; };
+		1D34EA727D40EFD4289E7D32B8396D9F /* CCStat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCStat.xcconfig; sourceTree = "<group>"; };
 		32754C3BE306FD0566F6C56E78568E0B /* Pods-CCRecordingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCRecordingDemo.release.xcconfig"; sourceTree = "<group>"; };
 		40F10A099C6B335A4AE1B47952D0AE01 /* Pods-CCRecordingDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCRecordingDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		453B098FD6256F56EC80ADC2465D556D /* CCRecording.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCRecording.h; path = CCRecording/CCRecording.h; sourceTree = "<group>"; };
+		5163DA9FF0E2D8BD8A822F3D4AF5EB13 /* libPods-CCRecordingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CCRecordingDemo.a"; path = "libPods-CCRecordingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		583097076ADC86999BAF21E185E515CB /* CCRecording.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCRecording.h; path = CCRecording/CCRecording.h; sourceTree = "<group>"; };
+		5ECCFA318B580F30A30E5C06D966C8FB /* BaiduMobStat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaiduMobStat.h; path = BaiduMobStat/BaiduMobStat.h; sourceTree = "<group>"; };
 		64769864CD1DC02261A6A3B4793F96FC /* Pods-CCRecordingDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCRecordingDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		6979294F365C01DE7B7899421D508A5B /* CCStat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCStat.h; path = CCStat/CCStat.h; sourceTree = "<group>"; };
 		81FF3A0FA3B83E5F767861B4F4FF43B5 /* Pods-CCRecordingDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCRecordingDemo-dummy.m"; sourceTree = "<group>"; };
+		863EB55BE906F2E6F8A14A0CA35B9C58 /* libCCRecording.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCCRecording.a; path = CCRecording/libCCRecording.a; sourceTree = "<group>"; };
+		884F21AC590432631B78C105C4A3445B /* libCCStat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCCStat.a; path = libCCStat.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9214D0D21C5A58580202641214CDDB67 /* Pods-CCRecordingDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCRecordingDemo-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9697A2E452D900B13025364D1DF11D9B /* Pods-CCRecordingDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCRecordingDemo-resources.sh"; sourceTree = "<group>"; };
+		A2A7B6F5D3ED1CCD207656A966ABBE05 /* CCStat-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCStat-prefix.pch"; sourceTree = "<group>"; };
+		A490606EF19203E293BE0AEA122A7753 /* CCStat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCStat-dummy.m"; sourceTree = "<group>"; };
+		B1106CE3FF6145C8CF1623F646680624 /* CCStat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCStat.m; path = CCStat/CCStat.m; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D759ACE0933A85E7583AE46F16AF63E6 /* libCCRecording.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCCRecording.a; path = CCRecording/libCCRecording.a; sourceTree = "<group>"; };
 		E9060F90513BF6D08BCA2D628FA9E257 /* Pods-CCRecordingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCRecordingDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		E9228F5ACFB05CFCA8298A1ADE125006 /* libBaiduMobStat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBaiduMobStat.a; path = BaiduMobStat/libBaiduMobStat.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A45BBA018351AF4320754BD4AF632D1F /* Frameworks */ = {
+		12E6D2FC8E41EBEF1D97541E755F1A6E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1889BD1A6B646E9E607F9FBE495D4213 /* Foundation.framework in Frameworks */,
+				66500E30B5F57E4ADD79DBB5B2969D14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168DA3AFC2F06DC766A29EA7FA113807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10514154AD53AA08DE7BEC80E798B2CF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3328F597674F008C692B35974068242E /* Pods */ = {
+		0EFDAC65EBEDC00FB720D70C1ED2A602 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6783EE05B565EF202386389EADF49725 /* BaiduMobStat */,
-				A97553C0C3B72198AFC7F0745979A2FC /* CCRecording */,
+				002FAF9C1C9692609DD58F2234ED3086 /* libBaiduMobStat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22635B5796A393BD2A22E705A83556AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C13E8CF83C0D08207341E5F15FDDC532 /* BaiduMobStat */,
+				BEDF364D67D288D39232E6000BA95674 /* CCRecording */,
+				CC1E98B1B10214BCE2814A3251FE6382 /* CCStat */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -57,16 +94,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6783EE05B565EF202386389EADF49725 /* BaiduMobStat */ = {
-			isa = PBXGroup;
-			children = (
-				0F620D86E451ACA605D4910519F0AC2E /* BaiduMobStat.h */,
-				793B4EED2B2B8EFCBC95DFB35BD32DA5 /* Frameworks */,
-			);
-			name = BaiduMobStat;
-			path = BaiduMobStat;
-			sourceTree = "<group>";
-		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,33 +102,34 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		793B4EED2B2B8EFCBC95DFB35BD32DA5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E9228F5ACFB05CFCA8298A1ADE125006 /* libBaiduMobStat.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				3328F597674F008C692B35974068242E /* Pods */,
-				F3B3A574BDF5FA02D31D4BA72E15E600 /* Products */,
+				22635B5796A393BD2A22E705A83556AA /* Pods */,
+				C7A4FC4FAB2DC9FA2E7D70C1E42B2D56 /* Products */,
 				3893E65C7CAAE75DAC39D187B5416ED9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A97553C0C3B72198AFC7F0745979A2FC /* CCRecording */ = {
+		97F9FF951596EBAC7FDABF6311725E8C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				453B098FD6256F56EC80ADC2465D556D /* CCRecording.h */,
-				F014AD62AF74E58747A218D80349749C /* Frameworks */,
+				1D34EA727D40EFD4289E7D32B8396D9F /* CCStat.xcconfig */,
+				A490606EF19203E293BE0AEA122A7753 /* CCStat-dummy.m */,
+				A2A7B6F5D3ED1CCD207656A966ABBE05 /* CCStat-prefix.pch */,
 			);
-			name = CCRecording;
-			path = CCRecording;
+			name = "Support Files";
+			path = "../Target Support Files/CCStat";
+			sourceTree = "<group>";
+		};
+		9BAA4294BFF7CA0706195EB904018751 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				863EB55BE906F2E6F8A14A0CA35B9C58 /* libCCRecording.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -110,6 +138,46 @@
 				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEDF364D67D288D39232E6000BA95674 /* CCRecording */ = {
+			isa = PBXGroup;
+			children = (
+				583097076ADC86999BAF21E185E515CB /* CCRecording.h */,
+				9BAA4294BFF7CA0706195EB904018751 /* Frameworks */,
+			);
+			name = CCRecording;
+			path = CCRecording;
+			sourceTree = "<group>";
+		};
+		C13E8CF83C0D08207341E5F15FDDC532 /* BaiduMobStat */ = {
+			isa = PBXGroup;
+			children = (
+				5ECCFA318B580F30A30E5C06D966C8FB /* BaiduMobStat.h */,
+				0EFDAC65EBEDC00FB720D70C1ED2A602 /* Frameworks */,
+			);
+			name = BaiduMobStat;
+			path = BaiduMobStat;
+			sourceTree = "<group>";
+		};
+		C7A4FC4FAB2DC9FA2E7D70C1E42B2D56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				884F21AC590432631B78C105C4A3445B /* libCCStat.a */,
+				5163DA9FF0E2D8BD8A822F3D4AF5EB13 /* libPods-CCRecordingDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC1E98B1B10214BCE2814A3251FE6382 /* CCStat */ = {
+			isa = PBXGroup;
+			children = (
+				6979294F365C01DE7B7899421D508A5B /* CCStat.h */,
+				B1106CE3FF6145C8CF1623F646680624 /* CCStat.m */,
+				97F9FF951596EBAC7FDABF6311725E8C /* Support Files */,
+			);
+			name = CCStat;
+			path = CCStat;
 			sourceTree = "<group>";
 		};
 		D9D3EAFD93FD1DC3ECA043E8C77E2FF6 /* Pods-CCRecordingDemo */ = {
@@ -127,39 +195,52 @@
 			path = "Target Support Files/Pods-CCRecordingDemo";
 			sourceTree = "<group>";
 		};
-		F014AD62AF74E58747A218D80349749C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D759ACE0933A85E7583AE46F16AF63E6 /* libCCRecording.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F3B3A574BDF5FA02D31D4BA72E15E600 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0FB5A627C62C4F34057BDFC9B2EF0522 /* libPods-CCRecordingDemo.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		8D71C623722E7B7F69E80B3A5D28BED3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2EA4810D3133E7B03DA3E1BDB925B8 /* CCStat.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		DB49D0DF8FFBEDE68B5787F5B83D56AA /* Pods-CCRecordingDemo */ = {
+		1F224CE5782133A70F8EAD77F5957E11 /* CCStat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB2372EBE60C45BA2B23D16E698CD820 /* Build configuration list for PBXNativeTarget "Pods-CCRecordingDemo" */;
+			buildConfigurationList = D66D97F34FF08331C4A6483DB5AB6938 /* Build configuration list for PBXNativeTarget "CCStat" */;
 			buildPhases = (
-				AFF2CDE8CEF2187CA84DACE2266D6016 /* Sources */,
-				A45BBA018351AF4320754BD4AF632D1F /* Frameworks */,
+				6BD43CA5797139A83E73AAD628C58DC2 /* Sources */,
+				12E6D2FC8E41EBEF1D97541E755F1A6E /* Frameworks */,
+				8D71C623722E7B7F69E80B3A5D28BED3 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = CCStat;
+			productName = CCStat;
+			productReference = 884F21AC590432631B78C105C4A3445B /* libCCStat.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C3B1C04F5CE2311B74625F3AB6A45550 /* Pods-CCRecordingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F702CB0D61A7C27F1CDB418B2E8D9A11 /* Build configuration list for PBXNativeTarget "Pods-CCRecordingDemo" */;
+			buildPhases = (
+				356B030C731792FA45663BA3AD62F2CB /* Sources */,
+				168DA3AFC2F06DC766A29EA7FA113807 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				285623CFD4057BBF390CD0653547879A /* PBXTargetDependency */,
+			);
 			name = "Pods-CCRecordingDemo";
 			productName = "Pods-CCRecordingDemo";
-			productReference = 0FB5A627C62C4F34057BDFC9B2EF0522 /* libPods-CCRecordingDemo.a */;
+			productReference = 5163DA9FF0E2D8BD8A822F3D4AF5EB13 /* libPods-CCRecordingDemo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -179,25 +260,44 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = F3B3A574BDF5FA02D31D4BA72E15E600 /* Products */;
+			productRefGroup = C7A4FC4FAB2DC9FA2E7D70C1E42B2D56 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB49D0DF8FFBEDE68B5787F5B83D56AA /* Pods-CCRecordingDemo */,
+				1F224CE5782133A70F8EAD77F5957E11 /* CCStat */,
+				C3B1C04F5CE2311B74625F3AB6A45550 /* Pods-CCRecordingDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AFF2CDE8CEF2187CA84DACE2266D6016 /* Sources */ = {
+		356B030C731792FA45663BA3AD62F2CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9087AC85BC7F00FBA6403CF749DD695E /* Pods-CCRecordingDemo-dummy.m in Sources */,
+				99BB259EC71393110F5C3EFBB5BB4001 /* Pods-CCRecordingDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BD43CA5797139A83E73AAD628C58DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA57BF28903E24D31C3CF284782082D /* CCStat-dummy.m in Sources */,
+				2B08458A49666AAE5CCAA32F2587E9B5 /* CCStat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		285623CFD4057BBF390CD0653547879A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCStat;
+			target = 1F224CE5782133A70F8EAD77F5957E11 /* CCStat */;
+			targetProxy = 99D73B39926D749DAD87F2A8F9F1DC7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
@@ -284,7 +384,7 @@
 			};
 			name = Release;
 		};
-		CB8209B262FE653C817883BD21E8323D /* Debug */ = {
+		731B8AC372ED2CC9CBEB04671AF93E8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E9060F90513BF6D08BCA2D628FA9E257 /* Pods-CCRecordingDemo.debug.xcconfig */;
 			buildSettings = {
@@ -307,7 +407,53 @@
 			};
 			name = Debug;
 		};
-		F092154425C8205D4CAB33E439AA0AF9 /* Release */ = {
+		95E32B3C1CE4878A3B2801BB57A13AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D34EA727D40EFD4289E7D32B8396D9F /* CCStat.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CCStat/CCStat-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A3AB6C457DE9E05683D7783E260EF9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D34EA727D40EFD4289E7D32B8396D9F /* CCStat.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CCStat/CCStat-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		ADE5FFAE4EBACC10FAE306063848E9F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 32754C3BE306FD0566F6C56E78568E0B /* Pods-CCRecordingDemo.release.xcconfig */;
 			buildSettings = {
@@ -342,11 +488,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB2372EBE60C45BA2B23D16E698CD820 /* Build configuration list for PBXNativeTarget "Pods-CCRecordingDemo" */ = {
+		D66D97F34FF08331C4A6483DB5AB6938 /* Build configuration list for PBXNativeTarget "CCStat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB8209B262FE653C817883BD21E8323D /* Debug */,
-				F092154425C8205D4CAB33E439AA0AF9 /* Release */,
+				95E32B3C1CE4878A3B2801BB57A13AA6 /* Debug */,
+				A3AB6C457DE9E05683D7783E260EF9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F702CB0D61A7C27F1CDB418B2E8D9A11 /* Build configuration list for PBXNativeTarget "Pods-CCRecordingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731B8AC372ED2CC9CBEB04671AF93E8F /* Debug */,
+				ADE5FFAE4EBACC10FAE306063848E9F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

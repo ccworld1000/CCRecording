@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CCStat.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-CCRecordingDemo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -12,7 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>DB49D0DF8FFBEDE68B5787F5B83D56AA</key>
+		<key>1F224CE5782133A70F8EAD77F5957E11</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C3B1C04F5CE2311B74625F3AB6A45550</key>
 		<dict>
 			<key>primary</key>
 			<true/>

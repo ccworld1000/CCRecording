@@ -1,15 +1,18 @@
 PODS:
   - BaiduMobStat (4.4.0)
-  - CCRecording (1.1.1)
+  - CCRecording (1.1.2)
+  - CCStat (1.0.1):
+    - BaiduMobStat (~> 4.4.0)
 
 DEPENDENCIES:
-  - BaiduMobStat (~> 4.4.0)
   - CCRecording
+  - CCStat
 
 SPEC CHECKSUMS:
   BaiduMobStat: 268afdc731de49142e3e2ed794f8ed65002139b9
-  CCRecording: 8ad8fba287c7b041412c94b599bee0c8e9723e8b
+  CCRecording: 43f767ec5e94d04ccaf8227205f4452b8fe98006
+  CCStat: 49b673c5f4f67af49080a0b9fbde84a3a1b0d7fd
 
-PODFILE CHECKSUM: 4bbb070f32b460087085f66e8245060069edcae6
+PODFILE CHECKSUM: e0800de0f4fcf16f02148c4ab2403b05d31fdc22
 
 COCOAPODS: 1.2.0

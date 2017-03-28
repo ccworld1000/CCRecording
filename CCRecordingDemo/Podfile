@@ -6,7 +6,9 @@ target 'CCRecordingDemo' do
   # use_frameworks!
 
   # Pods for CCRecordingDemo
-  pod 'BaiduMobStat', '~> 4.4.0'
+
+  pod 'CCStat'
   pod 'CCRecording'
   
+
 end
