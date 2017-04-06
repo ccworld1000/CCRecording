@@ -23,19 +23,9 @@ PURPOSE : recording your app ......
 pod 'CCSQLite'
 ```
 
-***
-# Usage && Migrate
-***
-
-[Usage : Similar FMDB, just repalce "FM\*" to "CC\*"] (https://github.com/ccgus/fmdb/blob/master/README.markdown)
-
-[more detail](https://github.com/ccworld1000/CCSQLite/blob/master/Documentation/MainAdjust.png?raw=true)
-
-***
-
 # demo
-###see CCRecordingDemo/
-###see RunDemoVideo => RunDemoVideo/CCRecordingDemoVideo20170319.mov
+####see CCRecordingDemo/
+####see RunDemoVideo => RunDemoVideo/CCRecordingDemoVideo20170319.mov
 
 
 # demo code
