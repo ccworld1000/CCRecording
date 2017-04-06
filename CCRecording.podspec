@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CCRecording"
-  s.version      = "1.1.2"
+  s.version      = "1.2.1"
   s.summary      = "CCRecording : recording your app when you need, record video"
 
   # This description is used to generate tags and improve search results.
@@ -39,8 +39,8 @@ CCRecording : recording your app when you need, record video
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #s.license      = "MIT"
+  # s.license      = { :type => "MIT", :file => "LICENSE/LICENSE.CCRecording.txt" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
